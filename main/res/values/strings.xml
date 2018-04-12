@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CrudCar</string>
+    <string name="add_new_car">Add new car</string>
+    <string name="name">Name</string>
+    <string name="mark">Mark</string>
+    <string name="model">Model</string>
+    <string name="transmission">Transmission</string>
+    <string name="combustible">Combustible</string>
+    <string name="year">Year</string>
+    <string name="add_car">Add Car</string>
+    <string name="image_car_url">Image car url</string>
+    <string name="update_car">Update car</string>
+    <string name="uri">URI</string>
+</resources>

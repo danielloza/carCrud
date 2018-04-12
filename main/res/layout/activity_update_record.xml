@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/size_10"
+    android:background="@drawable/back"
+    tools:context="mx.com.dloza.crudcar.UpdateRecordActivity">
+
+
+    <TextView
+        android:id="@+id/title_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_car"
+        android:textColor="@color/red"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/car_name_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_mark_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/mark"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_model_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/model"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_transmission_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/transmission"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_combustible_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/combustible"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_year_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:hint="@string/year"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_image_link_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textUri"
+        android:hint="@string/image_car_url"
+        android:textColorHint="@color/black"/>
+    <Button
+        android:id="@+id/update_car_button"
+        android:layout_width="match_parent"
+        android:background="@color/green"
+        android:layout_height="wrap_content"
+        android:text="@string/update_car"/>
+
+</LinearLayout>

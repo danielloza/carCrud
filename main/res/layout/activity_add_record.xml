@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/size_10"
+    android:background="@drawable/back"
+    tools:context="mx.com.dloza.crudcar.AddRecordActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_car"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/car_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/mark"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/model"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_transmission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/transmission"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_combustible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/combustible"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:hint="@string/year"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/car_image_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textUri"
+        android:hint="@string/image_car_url"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/add_new_car_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:text="@string/add_car"/>
+
+</LinearLayout>
